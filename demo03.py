@@ -1,8 +1,8 @@
-name = str(input("请输入您的名字："))
+""" name = str(input("请输入您的名字："))
 age = int(input("请输入您的年龄："))
-sex = str(input("请输入您的性别："))
+sex = str(input("请输入您的性别：")) """
 
-a = {"姓名":name,"age":age,"sex":sex}
+a = {"姓名":str(input("请输入您的名字：")),"age":int(input("请输入您的年龄：")),"sex":str(input("请输入您的性别："))}
 # 输入赋值并以键值对结构存入字典
 
 print("您的姓名：",a["姓名"])
